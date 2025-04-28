@@ -46,7 +46,7 @@ app.get("/cadastro", (req, res)=>{
     // res.send("Você está na página de cadastro");
     //res.send("<img src='./static/login.png'></img>"); 
     res.render("cadastro");
-})
+});
 
 
 app.listen(PORT, () => {
